@@ -3,3 +3,5 @@ Flask
 gunicorn
 pandas
 sklearn
+scikit_learn==0.22.2.post1
+requests
