@@ -9,7 +9,7 @@ app = Flask(__name__)
 model = joblib.load(open('model.pkl', 'rb'))
 
 
-@app.route('/')
+@app.route('')
 def home():
     return render_template('index.html')
 
